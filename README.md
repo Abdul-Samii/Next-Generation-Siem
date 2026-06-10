@@ -1,8 +1,13 @@
-# Download Dataset first of all
-visit this link:
+# Download Dataset & Multiclass model first of all
+dataset:
 https://zenodo.org/records/14903687
+data multiclass mode:
+https://drive.google.com/file/d/1HdCJdT6X8_FnLaSZ6GjR8zzdY84TYmi6/view?usp=drive_link
+(or train the notebook)
+put the model and the model inside /implementation/...
 
 make sure to rename the dataset file to 'balanced_veremi_dataset.csv'
+
 # V2X Anomaly Detection System
 
 Real-time ML-powered intrusion detection for Vehicle-to-Everything (V2X) communications, trained on the VeReMi dataset.
