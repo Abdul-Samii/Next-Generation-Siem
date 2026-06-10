@@ -1,0 +1,2 @@
+// can you add the node_modules folder to the .gitignore file?
+**/node_modules/

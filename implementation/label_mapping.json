@@ -1,0 +1,22 @@
+{
+  "0": "Benign",
+  "1": "ConstPos",
+  "2": "ConstPosOffset",
+  "3": "ConstSpeed",
+  "4": "ConstSpeedOffset",
+  "5": "DataReplay",
+  "6": "DataReplaySybil",
+  "7": "DelayedMessages",
+  "8": "Disruptive",
+  "9": "DoS",
+  "10": "DoSDisruptive",
+  "11": "DoSDisruptiveSybil",
+  "12": "DoSRandom",
+  "13": "DoSRandomSybil",
+  "14": "EventualStop",
+  "15": "GridSybil",
+  "16": "RandomPos",
+  "17": "RandomPosOffset",
+  "18": "RandomSpeed",
+  "19": "RandomSpeedOffset"
+}

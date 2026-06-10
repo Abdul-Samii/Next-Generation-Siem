@@ -1,8 +1,3 @@
-# Download Dataset first of all
-visit this link:
-https://zenodo.org/records/14903687
-
-make sure to rename the dataset file to 'balanced_veremi_dataset.csv'
 # V2X Anomaly Detection System
 
 Real-time ML-powered intrusion detection for Vehicle-to-Everything (V2X) communications, trained on the VeReMi dataset.

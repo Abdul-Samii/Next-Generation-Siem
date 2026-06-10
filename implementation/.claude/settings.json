@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/newmoon/veremi-training/label_mapping_multi.json'\\)\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -)",
+      "Bash(python3 -c \"import docx\")",
+      "Bash(pip install *)",
+      "Bash(mkdir -p /Users/newmoon/veremi-training/simulation/backend /Users/newmoon/veremi-training/simulation/frontend/src/components)",
+      "Bash(python3 -c \"import pandas, joblib, sklearn\")",
+      "Bash(find /Users/newmoon -name \"python3\" -type f 2>/dev/null | grep -v \"__pycache__\" | head -10)",
+      "Read(//Users/newmoon/**)",
+      "Bash(python3 -c \"import pandas\")",
+      "Bash(python3.11 -c \"import pandas\")",
+      "Bash(python3.10 -c \"import pandas\")",
+      "Bash(python3.12 -c \"import pandas\")",
+      "Bash(conda run *)",
+      "Bash(mamba run *)",
+      "Bash(find /usr -name \"python3*\" -type f 2>/dev/null | head -5; find /opt -name \"python3*\" -type f 2>/dev/null | head -5; ls ~/miniforge3/bin/python* 2>/dev/null || ls ~/miniconda3/bin/python* 2>/dev/null || ls ~/anaconda3/bin/python* 2>/dev/null)",
+      "Read(//usr/**)",
+      "Read(//opt/**)",
+      "Bash(/opt/anaconda3/bin/python3.11 -c \"import pandas, joblib, sklearn; print\\('OK'\\)\")",
+      "Bash(pkill -f \"uvicorn main\")",
+      "Bash(/opt/anaconda3/bin/python3.11 -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload)",
+      "Bash(/opt/anaconda3/bin/python3.11 -c ' *)",
+      "Bash(pkill -f \"uvicorn main\" 2>/dev/null; sleep 1 *)",
+      "Read(//tmp/**)",
+      "Bash(sleep 4 && cat /tmp/backend.log)",
+      "Read(//private/tmp/**)",
+      "Bash(pkill -f \"python.*main\")",
+      "Bash(uvicorn --version)",
+      "Bash(python3 -c \"import uvicorn; import pandas; print\\('ok'\\)\")",
+      "Bash(pipenv run *)",
+      "Bash(xargs -I{} sh -c '{} -c \"import pandas; print\\(\\\\\"{} has pandas\\\\\"\\)\" 2>/dev/null')",
+      "Bash(/opt/anaconda3/bin/python3.11 -c \"import pandas, joblib; print\\('ok'\\)\")"
+    ],
+    "additionalDirectories": [
+      "/Users/newmoon/veremi-training/simulation"
+    ]
+  }
+}
